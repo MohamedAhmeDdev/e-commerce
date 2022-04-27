@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navigation -->
+
+    <nav class="navbar">
+        <p class="logo">View Store</p>
+        <ul class="navigation">
+            <button id="rolex">Rolex</button>
+            <button id="casio">Casio</button>
+            <button id="fossil">Fossil</button>
+            <button id="giordano">Giordano</button>
+            Add To Cart<p id="addCart" class="cart">0</p>
+        </ul>
+    </nav>
+
+    
+            <div class="header">
+                <img src="./images/Y705490-2_carousel_1800x.webp" alt="">
+            </div>       
+
+    <div class="lo">
+        <h3 class="moto">Time Is what Motivates Us</h3>
+        <p class="about-time" >Everyone looks at your watch and it represents who you are, your values and your personal style.</p>
+    </div>
+
+    <!-- products -->
+    <h2 class="products-head">Products</h2>
+    <section id="watch" class="products"></section>
+
+    <!-- reviews -->
+    <h3 class="reviews">Reviews</h3>
+
+    <section class="reviews-cards">
+        <!-- Carousel review-->
+    <div id="demo" class="carousel slide carousel-card" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active reviews-div">
+                <p class="person-review">They were helpful and they know <br> what there customers want</p>
+            </div>
+
+            <div class="carousel-item reviews-div">
+                <p class="person-review">They deliver what they promises to they customers</p>
+            </div>
+            
+            <div class="carousel-item reviews-div">
+                <p class="person-review">They were helpful and the employee were nice</p>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <h3>Working Hours</h3>
+            <span id="day"></span>
+            <span id="hours"></span>:
+            <span id="min"></span>-
+            <span id="workingHours"></span>
+
+        </div>
+
+        <div>
+            <h3>Location</h3>
+            <ul>
+                <li>Kilimani</li>
+                <li>Estleigh</li>
+                <li>Upper Hill</li>
+            </ul>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
