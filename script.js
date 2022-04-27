@@ -129,8 +129,6 @@ if (mins < 10) {
 function grreetingMessage() {
     if (hours < 6) {
         greeting = "OPEN";
-    // } else if (hours <= 16) {
-    //     greeting = "GOOD AFTERNOON";
     } else {
         greeting = "CLOSED";
     }
