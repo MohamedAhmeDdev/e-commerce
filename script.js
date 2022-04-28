@@ -133,7 +133,7 @@ function openingClosingHours() {
         openingClosing = "CLOSED";
     }
 }
-grreetingMessage();
+openingClosingHours();
 
 
 document.getElementById("day").innerHTML = formatDay
