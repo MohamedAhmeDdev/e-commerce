@@ -126,11 +126,11 @@ if (mins < 10) {
     mins = `0${mins}`;
 }
 
-function grreetingMessage() {
+function openingClosingHours() {
     if (hours < 6) {
-        greeting = "OPEN";
+        openingClosing = "OPEN";
     } else {
-        greeting = "CLOSED";
+        openingClosing = "CLOSED";
     }
 }
 grreetingMessage();
@@ -139,7 +139,7 @@ grreetingMessage();
 document.getElementById("day").innerHTML = formatDay
 document.getElementById("hours").innerHTML = hours
 document.getElementById("min").innerHTML = mins
-document.getElementById("workingHours").innerHTML = greeting
+document.getElementById("workingHours").innerHTML = openingClosing
 }
 setInterval(timeDate, 1000)
 
